@@ -1,4 +1,4 @@
-# Welcome to the Official Repository of CYBeR_WiZaRD!
+# Welcome to the Official Repository of the CYBeR_WiZaRD file!
 >[!CAUTION]
 > This repository and https://sites.google.com/view/cyber-wizard/ are the only official places to get the file. Any other websites offering downloads or claiming to be us are not controlled by us!
 ---
