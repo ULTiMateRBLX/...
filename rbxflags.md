@@ -9,6 +9,21 @@
 3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
 4. Your configuration is **complete**!**
 
+# List Navigation
+* **[Rendering](#rendering)**
+* **[Lightning Technologies](#lightning-technologies)**
+* **[Graphical](#graphical-settings)**
+* **[Quality of Life](#quality-of-life)**
+* **[UI](#user-interfacevisuals)**
+* **[UI X](#user-interfacevisuals-experimental)**
+* **[Audio](#audio-related)**
+* **[Physics](#physics-abusive)**
+* **[Abusive Visuals](#abusive-visuals)**
+* **[Abusive Game Presets](#abusive-game-specific-presets)**
+* **[lol](#lol)**
+* **[Debug](#debug)**
+* **[Community Presets](#community-presets)**
+
 <h1 align="center">1️⃣ Rendering API</h1>
 
 ### Metal
@@ -1522,10 +1537,117 @@
     "FFlagDebugCountSimBodyAllocations": "True"
 }
 ```
+
 <h1 align="center">1️⃣2️⃣ Community Presets</h1>
 
-### absolutely kill your game quality with fflags for more fps (maybe)
-##### @dynamitebumblemouth
+### V1 (Very low quality for performance)
+
+```json
+{
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntTaskSchedulerTargetFps": "9999",
+    "FFlagDebugRenderingSetDeterministic": "True",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "DFFlagDisableDPIScale": "True",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True",
+    "FFlagGlobalWindRendering": "False",
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6",
+    "FIntRenderLocalLightFadeInMs": "-1",
+    "FFlagDisablePostFx": "True",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "FFlagDebugSkyGray": "True",
+    "FFlagFastGPULightCulling3": "True",
+    "DFIntMaxFrameBufferSize": "4",
+    "FIntTerrainArraySliceSize": "4",
+    "DFIntTextureCompositorActiveJobs": "0",
+    "FIntDebugTextureManagerSkipMips": "8",
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0",
+    "FIntRenderGrassHeightScaler": "0",
+    "FIntRenderShadowmapBias": "-1",
+    "FFlagAdServiceEnabled": "False",
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0",
+    "FFlagEnableInGameMenuChromeABTest2": "False",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
+    "FFlagEnableInGameMenuChromeABTest3": "False",
+    "FFlagUserShowGuiHideToggles": "True",
+    "GuiHidingApiSupport2": "True",
+    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+}
+```
+
+### V2 (same as V1)
+
+```json
+{
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntTaskSchedulerTargetFps": "9999",
+    "FFlagRenderFixFog": "True",
+    "FFlagDebugCheckRenderThreading": "True",
+    "FFlagRenderDebugCheckThreading2": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "DFFlagDisableDPIScale": "True",
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True",
+    "FIntRenderLocalLightUpdatesMax": "6",
+    "FIntRenderLocalLightUpdatesMin": "4",
+    "FIntRenderLocalLightFadeInMs": "0",
+    "FFlagDisablePostFx": "True",
+    "FFlagNewLightAttenuation": "True",
+    "FFlagDebugForceFSMCPULightCulling": "True",
+    "DFIntMaxFrameBufferSize": "6",
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3",
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0",
+    "FIntDebugForceMSAASamples": "0",
+    "FFlagGameBasicSettingsFramerateCap5": "False",
+    "FFlagUserShowGuiHideToggles": "True",
+    "FFlagGuiHidingApiSupport2": "True",
+    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+    "DFIntTimestepArbiterThresholdCFLThou": "300",
+    "FFlagAdServiceEnabled": "False",
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True",
+    "DFIntDefaultTimeoutTimeMs": "10000",
+    "FFlagEnableQuickGameLaunch": "True",
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0",
+    "FFlagHandleAltEnterFullscreenManually": "False",
+    "FIntRobloxGuiBlurIntensity": "0",
+    "FFlagErrorPromptResizesHeight": "False",
+    "FFlagNewCameraControls": "True",
+    "DFIntS2PhysicsSenderRate": "10000"
+}
+```
+
+#### I don't see a difference between these two, please don't blindly paste Fast Flags that you don't know what they do & don't buy those "FPS" & "PING" flags.
+
+##### (V1 is the First screenshot and V2 is the Second screenshot)
+
+![image](https://github.com/user-attachments/assets/2a3c90fd-92fc-4231-948f-59559ecdc2e9)
+![image](https://github.com/user-attachments/assets/8aea5195-fe3a-4b5e-bb06-8fe1839d2860)
+
+### V3 (also low quality but not as same as V1 and V2)
+
 ```json
 {
     "FFlagDisablePostFx": "True",
@@ -1538,7 +1660,6 @@
     "DFIntDebugFRMQualityLevelOverride": "1",
     "DFFlagDebugPauseVoxelizer": "True",
     "DFFlagDebugRenderForceTechnologyVoxel": "True",
-    "FFlagGlobalWindRendering": "False",
     "FIntRenderShadowIntensity": "0",
     "FIntRenderShadowmapBias": "1",
     "FIntDebugForceMSAASamples": "-1",
