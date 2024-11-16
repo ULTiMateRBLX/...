@@ -5,7 +5,7 @@
 
 ## How to Use _PlaceFilter
 1. **Add** `_PlaceFilter` **after** the **Fast Flag name**.
-2. **Add** a **semicolon after** the Value (`;`). **Examples**: `True;`, `1;`.**
+2. **Add** a **semicolon after** the Value (`;`). **Examples**: `True;`, `1;`.
 3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
 4. Your configuration is **complete**!**
 
@@ -180,21 +180,15 @@
 <h4 align="center">FRM Levels</h4>
 
 ```
-Low
-
-1 = 3
-2 = 2
-3 = 6
-
-High
-
-4 = 7
-5 = 11
-6 = 14
-7 = 15 
-8 = 17
-9 = 18
-10 = 21
+                                            Low               |                High
+                                        ------------------------------------------------
+                                                              |               4 = 7
+                                                              |               5 = 11
+                                           1 = 3              |               6 = 14
+                                           2 = 2              |               7 = 15
+                                           3 = 6              |               8 = 17
+                                                              |               9 = 18
+                                                              |              10 = 21
 ```
 ### FRM 21 Graphics Quality Slider
 ```json
@@ -205,7 +199,7 @@ High
 ```
 ### Low Render Distance
 > [!TIP]
-> **[View FRM Levels](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#frm-levels)**
+> **[View FRM Levels](#frm-levels)**
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
@@ -276,7 +270,7 @@ High
 ```
 ### Enable GPULightCulling
 > [!TIP]
-> **Combine with [Lighting Attenuation](https://FastFlags/FastFlags-Collective/?tab=readme-ov-file#lighting-attenuation) for better vision**
+> **Combine with [Lighting Attenuation](#lighting-attenuation) for better vision**
 ```json
 {
     "FFlagFastGPULightCulling3": "True"
@@ -1097,9 +1091,6 @@ High
 
 <h1 align="center">8️⃣ Physics (Abusive)</h1>
 
-> [!NOTE]
-> Support me for finding some of these FastFlags (With credits on @burgerboxer) by buying https://www.roblox.com/game-pass/895489152/ or boosting our server!
-
 ### Tool Desync
 ```json
 {
@@ -1267,7 +1258,7 @@ High
 ```
 ### Network Ownership
 > [!NOTE]
-> better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
+> Better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
 
 > [!CAUTION]
 > **This might get you banned in some games with anticheats (Limbobbia)**
@@ -1344,10 +1335,6 @@ High
     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
 }
 ```
-
-<h1 align="center">Abusive Game Specific Presets</h1>
-
-#### You can contribute by making a pull request.
 
 <h1 align="center">🔟 lol</h1>
 
