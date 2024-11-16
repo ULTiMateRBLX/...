@@ -1,7 +1,10 @@
 <h1 align="center">#RBXFLAG💲</h1>
 
 > [!CAUTION]
-> **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
+> **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality. DON'T blindly paste Fast Flags that you don't know what they do!**
+
+> [!NOTE]
+> Also don't buy those "FPS" and "PING" flags.
 
 ## How to Use _PlaceFilter
 1. **Add** `_PlaceFilter` **after** the **Fast Flag name**.
@@ -22,7 +25,7 @@
 * **[Abusive Game Presets](#abusive-game-specific-presets)**
 * **[lol](#lol)**
 * **[Debug](#debug)**
-* **[Community Presets](#community-presets)**
+* **[Presets](#presets)**
 
 <h1 align="center">1️⃣ Rendering API</h1>
 
@@ -1538,7 +1541,7 @@
 }
 ```
 
-<h1 align="center">1️⃣2️⃣ Community Presets</h1>
+<h1 align="center">1️⃣2️⃣ Presets</h1>
 
 ### V1 (Very low quality for performance)
 
@@ -1639,7 +1642,8 @@
 }
 ```
 
-#### I don't see a difference between these two, please don't blindly paste Fast Flags that you don't know what they do & don't buy those "FPS" & "PING" flags.
+[!NOTE]
+[I don't see any big difference between these two]
 
 ##### (V1 is the First screenshot and V2 is the Second screenshot)
 
