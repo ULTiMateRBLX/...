@@ -1524,9 +1524,7 @@
 ```
 <h1 align="center">1️⃣2️⃣ Community Presets</h1>
 
-<h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
-
-### absolutely kill your game quality with fflags known to me
+### absolutely kill your game quality with fflags for more fps (maybe)
 ##### @dynamitebumblemouth
 ```json
 {
