@@ -1,4 +1,4 @@
-<h1 align="center">#RBXFLAG$</h1>
+<h1 align="center">#RBXFLAG💲</h1>
 
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
@@ -9,22 +9,7 @@
 3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
 4. Your configuration is **complete**!**
 
-# List Navigation
-* **[Rendering](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#rendering)**
-* **[Lightning Technologies](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#lightning-technologies)**
-* **[Graphical](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#graphical-settings)**
-* **[Quality of Life](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#quality-of-life)**
-* **[UI](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#user-interfacevisuals)**
-* **[UI X](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
-* **[Audio](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#audio-related)**
-* **[Physics](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#physics-abusive)**
-* **[Abusive Visuals](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#abusive-visuals)**
-* **[Abusive Game Presets](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#abusive-game-specific-presets)**
-* **[lol](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#lol)**
-* **[Debug](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#links)**
-
-<h1 align="center">Rendering API</h1>
+<h1 align="center">1️⃣ Rendering API</h1>
 
 ### Metal
 > [!IMPORTANT]
@@ -63,7 +48,7 @@
 }
 ```
 
-<h1 align="center">Lightning Technologies</h1>
+<h1 align="center">2️⃣ Lightning Technologies</h1>
 
 ### Voxel Lighting (Phase 1)
 ```json
@@ -91,7 +76,7 @@
 }
 ```
 
-<h1 align="center">Graphical Settings</h1>
+<h1 align="center">3️⃣ Graphical Settings</h1>
 
 ### Increased Grass Motion & No Grass Motion
 ```json
@@ -384,7 +369,7 @@ High
 }
 ```
 
-<h1 align="center">Quality of Life</h1>
+<h1 align="center">4️⃣ Quality of Life</h1>
 
 ### Disable VC
 > [!NOTE]
@@ -642,7 +627,7 @@ High
 }
 ```
 
-<h1 align="center">User Interface/Visuals</h1>
+<h1 align="center">5️⃣ User Interface/Visuals</h1>
 
 ### 🍔
 > [!NOTE]
@@ -971,7 +956,7 @@ High
 }
 ```
 
-<h1 align="center">User Interface/Visuals Experimental</h1>
+<h1 align="center">6️⃣ User Interface/Visuals Experimental</h1>
 
 ### Custom Accessory Positions <sup>Working in game</sup>
 ```json
@@ -1064,7 +1049,7 @@ High
 }
 ```
 
-<h1 align="center">Audio Related</h1>
+<h1 align="center">7️⃣ Audio Related</h1>
 
 ### Allows you to change voice chat distance 
 > [!NOTE]
@@ -1110,7 +1095,7 @@ High
 }
 ```
 
-<h1 align="center">Physics (Abusive)</h1>
+<h1 align="center">8️⃣ Physics (Abusive)</h1>
 
 > [!NOTE]
 > Support me for finding some of these FastFlags (With credits on @burgerboxer) by buying https://www.roblox.com/game-pass/895489152/ or boosting our server!
@@ -1300,7 +1285,7 @@ High
 }
 ```
 
-<h1 align="center">Abusive Visuals</h1>
+<h1 align="center">9️⃣ Abusive Visuals</h1>
 
 ### Semi Fullbright
 ```json
@@ -1364,7 +1349,7 @@ High
 
 #### You can contribute by making a pull request.
 
-<h1 align="center">lol</h1>
+<h1 align="center">🔟 lol</h1>
 
 ### break everything
 ```
@@ -1416,7 +1401,7 @@ High
 }
 ```
 
-<h1 align="center">Debug</h1>
+<h1 align="center">1️⃣1️⃣ Debug</h1>
 
 ### Shows the state of a flag
 ```json
@@ -1550,7 +1535,7 @@ High
     "FFlagDebugCountSimBodyAllocations": "True"
 }
 ```
-<h1 align="center">Community Presets</h1>
+<h1 align="center">1️⃣2️⃣ Community Presets</h1>
 
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
 
