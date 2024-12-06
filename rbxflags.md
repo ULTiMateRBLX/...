@@ -26,7 +26,7 @@
 * **[lol](#lol)**
 * **[Debug](#debug)**
 * **[Presets](#presets)**
-* **[Roblox Potato FFlags](#roblox-potato-fflags)
+* **[Roblox Potato FFlags](#roblox-potato-fflags)**
 
 <h1 align="center">1️⃣ Rendering API</h1>
 
