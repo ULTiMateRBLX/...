@@ -1,4 +1,4 @@
 <h1 align="center">🎮 ROBLOX STUFF</h1>
 
-- # https://ultimaterblx.github.io/roblox-stuff/ides.md
-- # https://ultimaterblx.github.io/roblox-stuff/rbxflags.md
+- # [IDEs](https://github.com/ULTiMateRBLX/roblox-stuff/blob/main/IDEs.md)
+- # [RBX Flags](https://github.com/ULTiMateRBLX/roblox-stuff/blob/main/rbxflags.md)
