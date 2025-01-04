@@ -1,4 +1,8 @@
-<h1 align="center">#RBXFLAG💲</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./banner.jpg">
+    <source media="(prefers-color-scheme: light)" srcset="./banner.jpg">
+<img>
 
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality. DON'T blindly paste Fast Flags that you don't know what they do!**
