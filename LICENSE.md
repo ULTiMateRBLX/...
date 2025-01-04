@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./LICENSE/banner.jpg">
-    <source media="(prefers-color-scheme: light)" srcset="./LICENSE/banner.jpg">
+    <source media="(prefers-color-scheme: dark)" srcset="./banner/scripting%20utilities.jpg">
+    <source media="(prefers-color-scheme: light)" srcset="./banner/scripting%20utilities.jpg">
 <img>
 
 # SLR
