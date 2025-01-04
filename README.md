@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner.jpg">
-    <source media="(prefers-color-scheme: light)" srcset="./banner.jpg">
+    <source media="(prefers-color-scheme: dark)" srcset="./banner/rbxflags.jpg">
+    <source media="(prefers-color-scheme: light)" srcset="./banner/rbxflags.jpg">
 <img>
 
 > [!CAUTION]
