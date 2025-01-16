@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner/rbxflags.jpg">
-    <source media="(prefers-color-scheme: light)" srcset="./banner/rbxflags.jpg">
+    <source media="(prefers-color-scheme: dark)" srcset="./banner/rbxflags.png">
+    <source media="(prefers-color-scheme: light)" srcset="./banner/rbxflags.png">
 <img>
 
 > [!CAUTION]
@@ -32,7 +32,7 @@
 * **[Presets](#presets)**
 * **[Roblox Potato FFlags](#roblox-potato-fflags)**
 
-<h1 align="center">1️⃣ Rendering API</h1>
+<h1 align="center">Rendering API</h1>
 
 ### Metal
 > [!IMPORTANT]
@@ -71,7 +71,7 @@
 }
 ```
 
-<h1 align="center">2️⃣ Lightning Technologies</h1>
+<h1 align="center">Lightning Technologies</h1>
 
 ### Voxel Lighting (Phase 1)
 ```json
@@ -99,7 +99,7 @@
 }
 ```
 
-<h1 align="center">3️⃣ Graphical Settings</h1>
+<h1 align="center">Graphical Settings</h1>
 
 ### Increased Grass Motion & No Grass Motion
 ```json
@@ -386,7 +386,7 @@
 }
 ```
 
-<h1 align="center">4️⃣ Quality of Life</h1>
+<h1 align="center">Quality of Life</h1>
 
 ### Disable VC
 > [!NOTE]
@@ -644,7 +644,7 @@
 }
 ```
 
-<h1 align="center">5️⃣ User Interface/Visuals</h1>
+<h1 align="center">User Interface/Visuals</h1>
 
 ### 🍔
 > [!NOTE]
@@ -973,7 +973,7 @@
 }
 ```
 
-<h1 align="center">6️⃣ User Interface/Visuals Experimental</h1>
+<h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Custom Accessory Positions <sup>Working in game</sup>
 ```json
@@ -1066,7 +1066,7 @@
 }
 ```
 
-<h1 align="center">7️⃣ Audio Related</h1>
+<h1 align="center">Audio Related</h1>
 
 ### Allows you to change voice chat distance 
 > [!NOTE]
@@ -1112,7 +1112,7 @@
 }
 ```
 
-<h1 align="center">8️⃣ Physics (Abusive)</h1>
+<h1 align="center">Physics (Abusive)</h1>
 
 ### Tool Desync
 ```json
@@ -1299,7 +1299,7 @@
 }
 ```
 
-<h1 align="center">9️⃣ Abusive Visuals</h1>
+<h1 align="center">Abusive Visuals</h1>
 
 ### Semi Fullbright
 ```json
@@ -1359,7 +1359,7 @@
 }
 ```
 
-<h1 align="center">🔟 lol</h1>
+<h1 align="center">lol</h1>
 
 ### break everything
 ```
@@ -1411,7 +1411,7 @@
 }
 ```
 
-<h1 align="center">1️⃣1️⃣ Debug</h1>
+<h1 align="center">Debug</h1>
 
 ### Shows the state of a flag
 ```json
@@ -1546,7 +1546,7 @@
 }
 ```
 
-<h1 align="center">1️⃣2️⃣ Presets</h1>
+<h1 align="center">Presets</h1>
 
 ### V1 (Very low quality for performance)
 
