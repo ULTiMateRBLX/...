@@ -5,18 +5,18 @@
 <img>
 
 > [!CAUTION]
-> **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality. DON'T blindly paste Fast Flags that you don't know what they do!**
+> Fast Flags (FFlags) are **EXTREMELY** powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality. **DO NOT** blindly paste FFlags that you don't know what they do!
 
 > [!NOTE]
-> Also don't buy those "FPS" and "PING" flags.
+> Also **don't** buy those *"FPS"* and *"PING"* FFlags.
 
-## How to Use _PlaceFilter
+## _PlaceFilter Tutorial
 1. **Add** `_PlaceFilter` **after** the **Fast Flag name**.
 2. **Add** a **semicolon after** the Value (`;`). **Examples**: `True;`, `1;`.
 3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
 4. Your configuration is **complete**!**
 
-# List Navigation
+# List of Navigation
 * **[Rendering](#rendering)**
 * **[Lightning Technologies](#lightning-technologies)**
 * **[Graphical](#graphical-settings)**
@@ -202,17 +202,16 @@
 ```
 <h4 align="center">FRM Levels</h4>
 
-```
-                                            Low               |                High
-                                        ------------------------------------------------
-                                                              |               4 = 7
-                                                              |               5 = 11
-                                           1 = 3              |               6 = 14
-                                           2 = 2              |               7 = 15
-                                           3 = 6              |               8 = 17
-                                                              |               9 = 18
-                                                              |              10 = 21
-```
+| Low ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎‎ ‎‎ ‎‎ ‎ ‎ ‎ ‎‎ ‎‎ ‎‎ ‎‎ ‎‎ ‎ ‎ ‎‎ ‎‎ ‎‎ ‎‎ ‎‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎‎ | ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎  ‎  High |
+| :---: | :---: |
+|  | 4 = 7 |
+|  | 5 = 11 |
+| 1 = 3 | 6 = 14
+| 2 = 2 | 7 = 15 |
+| 3 = 6 | 8 = 17 |
+|  | 9 = 18 |
+|  | 10 = 21 |
+
 ### FRM 21 Graphics Quality Slider
 ```json
 {
