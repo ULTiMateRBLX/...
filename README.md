@@ -230,8 +230,8 @@
 ### Limits light updates
 ```json
 {
-    "FIntRenderLocalLightUpdatesMax": "8",
-    "FIntRenderLocalLightUpdatesMin": "6"
+    "FIntRenderLocalLightUpdatesMax": "1",
+    "FIntRenderLocalLightUpdatesMin": "1"
 }
 ```
 ### Disables fade in and fade out animation every light update
@@ -1675,54 +1675,7 @@
     "DFIntTextureQualityOverride": "1"
 }
 ```
-# Roblox Potato Flags
-
-Forces Direct3D11 (better performance on newer pcs)
-
-```json
-{
-  "FFlagDebugGraphicsDisableDirect3D11": false,
-  "FFlagDebugGraphicsPreferD3D11": true
-}
-```
-
-Forces Direct3D10 (better performance on older PCs)
-
-```json
-{
-  "FFlagDebugGraphicsDisableDirect3D11": false,
-  "FFlagDebugGraphicsPreferD3D11": false,
-  "FFlagDebugGraphicsPreferD3D11FL10": true,
-  "FFlagGraphicsEnableD3D10Compute": true
-}
-```
-
-Forces Vulkan (can crash)
-
-```json
-{
-  "FFlagDebugGraphicsDisableVulkan": false,
-  "FFlagDebugGraphicsDisableVulkan11": false,
-  "FFlagDebugGraphicsPreferVulkan": true,
-  "FFlagRenderVulkanFixMinimizeWindow": true
-}
-```
-
-Forces Metal (only for macOS (?) and should give perf boost?? idk)
-
-```json
-{
-  "FFlagDebugGraphicsPreferMetal": true
-}
-```
-
-Forces Voxel lightning
-
-```json
-{
-  "DFFlagDebugRenderForceTechnologyVoxel": true
-}
-```
+<h1 align="center">Roblox Potato Flags</h1>
 
 Disables terrain grass (?)
 
@@ -1735,34 +1688,7 @@ Disables terrain grass (?)
 }
 ```
 
-Breaks Voxel shadows (only works w/ voxel lightning)
-
-```json
-{
-  "DFFlagDebugPauseVoxelizer": true
-}
-```
-
-Makes Roblox at high res. lower quality
-
-```json
-{
-  "DFFlagDisableDPIScale": false
-}
-```
-
-Disables textures (doesn't give perf boost, only visual)
-
-```json
-{
-  "FStringPartTexturePackTablePre2022": "{\"glass\":{\"ids\":[\"rbxassetid://7547304948\",\"rbxassetid://7546645118\"],\"color\":[254,254,254,7]}}",
-  "FStringPartTexturePackTable2022": "{\"glass\":{\"ids\":[\"rbxassetid://7547304948\",\"rbxassetid://7546645118\"],\"color\":[254,254,254,7]}}",
-  "FStringTerrainMaterialTablePre2022": "",
-  "FStringTerrainMaterialTable2022": ""
-}
-```
-
-Disables textures and breaks glass (alternative for one above)
+Disables textures and breaks glass
 
 ```json
 {
@@ -1770,67 +1696,6 @@ Disables textures and breaks glass (alternative for one above)
   "FStringPartTexturePackTable2022": "",
   "FStringTerrainMaterialTablePre2022": "",
   "FStringTerrainMaterialTable2022": ""
-}
-```
-
-Disables player shadows
-
-```json
-{
-  "FIntRenderShadowIntensity": 0
-}
-```
-
-Disables some effects (like sunrays)
-
-```json
-{
-  "FFlagDisablePostFx": true
-}
-```
-
-Disables antialiasing
-
-```json
-{
-  "FIntDebugForceMSAASamples": 0
-}
-```
-
-Makes textures low quality
-
-```json
-{
-  "DFFlagTextureQualityOverrideEnabled": true,
-  "DFIntTextureQualityOverride": 0
-}
-```
-
-Lowers model polygons from far
-
-```json
-{
-  "DFIntCSGLevelOfDetailSwitchingDistance": 0,
-  "DFIntCSGLevelOfDetailSwitchingDistanceL12": 0,
-  "DFIntCSGLevelOfDetailSwitchingDistanceL23": 0,
-  "DFIntCSGLevelOfDetailSwitchingDistanceL34": 0
-}
-```
-
-Limits light updates
-
-```json
-{
-  "FIntRenderLocalLightUpdatesMax": 1,
-  "FIntRenderLocalLightUpdatesMin": 1
-}
-```
-
-Enables gray sky w/ no clouds
-
-```json
-{
-  "FFlagDebugSkyGray": true
 }
 ```
 
@@ -1842,25 +1707,10 @@ Disables Selfview
 }
 ```
 
-Forces graphics quality to 1 (while being able to change render distance!)
-
-```json
-{
-  "DFIntDebugFRMQualityLevelOverride": 1
-}
-```
-
 Enable Hyperthreading
 
 ```json
 {
  "FFlagRenderCheckThreading": "True"
-}
-```
-
-Removes most textures of other players
-```json
-{
-  "DFIntTextureCompositorActiveJobs": 0
 }
 ```
