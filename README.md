@@ -30,7 +30,7 @@
 * **[lol](#lol)**
 * **[Debug](#debug)**
 * **[Presets](#presets)**
-* **[Roblox Potato FFlags](#roblox-potato-fflags)**
+* **[Extras](#extras)**
 
 <h1 align="center">Rendering API</h1>
 
@@ -1675,18 +1675,7 @@
     "DFIntTextureQualityOverride": "1"
 }
 ```
-<h1 align="center">Roblox Potato Flags</h1>
-
-Disables terrain grass (?)
-
-```json
-{
-  "FIntFRMMinGrassDistance": 0,
-  "FIntFRMMaxGrassDistance": 0,
-  "FIntRenderGrassDetailStrands": 0,
-  "FIntRenderGrassHeightScaler": 0
-}
-```
+<h1 align="center">Extras</h1>
 
 Disables textures and breaks glass
 
