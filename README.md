@@ -202,8 +202,10 @@
 ```
 <h4 align="center">FRM Levels</h4>
 
-| Low | High |
-| :---: | :---: |
+<div align="center">
+
+Low | High
+:---: | :---:
 |  | 4 = 7 |
 |  | 5 = 11 |
 | 1 = 3 ‎| 6 = 14 |
@@ -211,6 +213,7 @@
 | 3 = 6 | 8 = 17 |
 |  | 9 = 18 |
 |  | 10 = 21 |
+</div>
 
 ### FRM 21 Graphics Quality Slider
 ```json
@@ -465,12 +468,17 @@
 > [!IMPORTANT]
 > **Replace "ID" with any group ID that you are in.**
 
+<div align="center">
+
 | Key combination   | Action                                                                    |
-| ----------------- | ------------------------------------------------------------------------- |
+| --- | --- |
 | Ctrl + Shift + B  | Toggles GUIs in 3D space (BillboardGuis, SurfaceGuis, etc)                |
 | Ctrl + Shift + C  | Toggles game-defined ScreenGuis                                           |
 | Ctrl + Shift + G  | Toggles Roblox CoreGuis                                                   |
 | Ctrl + Shift + N  | Toggles player names, and other BillboardGuis that show up above a player |
+
+</div>
+
 ```json
 {
     "DFIntCanHideGuiGroupId": "ID"
