@@ -534,6 +534,7 @@ Low | High
 > [!TIP]
 > **Identify the Current MTU**
 > - **Windows**: Open Command Prompt and type `netsh interface ipv4 show subinterfaces`.
+> - **MacOS**: Open Terminal and type `ipconfig`.
 > - **Linux**: Use `ifconfig` or `ip link show` to find the current MTU of your network interface.
 
 > [!TIP]
@@ -542,6 +543,10 @@ Low | High
 > - **Example for Windows**:
 >   ```bash
 >   ping roblox.com -f -l 1472
+>   ```
+>   **Example for MacOS**:
+>   ```bash
+>   ping -s 1472 roblox.com
 >   ```
 > - **Example for Linux**:
 >   ```bash
